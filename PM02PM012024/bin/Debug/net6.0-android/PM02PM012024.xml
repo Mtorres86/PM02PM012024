@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>PM02PM012024</name>
+    </assembly>
+    <members>
+        <member name="T:PM02PM012024.Models.Personas">
+            <summary>
+            aqui creamos un elemento de sqlite como seria una tabla personas
+            </summary>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PM02PM012024.Views.PageMostrarDatos"
+             Title="PageMostrarDatos">
+    <VerticalStackLayout>
+      <ListView x:Name="listView">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <TextCell Text="{Binding Nombres}" 
+                              Detail="{Binding Apellidos + '  - ' + FechaNac.ToString('dd/MM/yyyy') + ' - Tel: ' + Telefono}" />
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </VerticalStackLayout>
+</ContentPage>
