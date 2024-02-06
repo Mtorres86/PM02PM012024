@@ -53,7 +53,7 @@ public partial class PageInit : ContentPage
                     
                     await DisplayAlert("Aviso", "Registro Almacenado", "OK");
                     //mando a llamar la vista donde tengo los eqtos para mostrar
-                   // await Navigation.PushAsync(new PageMostrarDatos(PersonDB));
+                   await Navigation.PushAsync(new PageMostrarDatos(PersonDB));
 
                 }
             }

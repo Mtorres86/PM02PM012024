@@ -6,6 +6,8 @@ namespace PM02PM012024.Controllers
 	//permite controlar nuestra base de datos. 
 	public class PersonaControllers
 	{
+
+		//esta es una prueba
         SQLiteAsyncConnection _connection;
 
 		//constructor vacio

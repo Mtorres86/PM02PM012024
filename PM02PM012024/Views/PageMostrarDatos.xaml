@@ -6,6 +6,7 @@
     <VerticalStackLayout>
       <ListView x:Name="listView">
             <ListView.ItemTemplate>
+
                 <DataTemplate>
                     <TextCell Text="{Binding Nombres}" 
                               Detail="{Binding Apellidos + '  - ' + FechaNac.ToString('dd/MM/yyyy') + ' - Tel: ' + Telefono}" />
