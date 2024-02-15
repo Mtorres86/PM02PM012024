@@ -156,6 +156,22 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
+      "Microsoft.Maui.Controls.Maps/8.0.7": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Maui.Maps": "8.0.7"
+        },
+        "compile": {
+          "lib/netstandard2.1/Microsoft.Maui.Controls.Maps.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/Microsoft.Maui.Controls.Maps.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "Microsoft.Maui.Dependencies/6.0.553": {
         "type": "package",
         "dependencies": {
@@ -195,6 +211,19 @@
           }
         }
       },
+      "Microsoft.Maui.Maps/8.0.7": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/Microsoft.Maui.Maps.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/Microsoft.Maui.Maps.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "sqlite-net-pcl/1.8.116": {
         "type": "package",
         "dependencies": {
@@ -211,11 +240,11 @@
           }
         }
       },
-      "SQLitePCLRaw.bundle_green/2.1.7": {
+      "SQLitePCLRaw.bundle_green/2.1.8": {
         "type": "package",
         "dependencies": {
-          "SQLitePCLRaw.lib.e_sqlite3.android": "2.1.7",
-          "SQLitePCLRaw.provider.e_sqlite3": "2.1.7"
+          "SQLitePCLRaw.lib.e_sqlite3.android": "2.1.8",
+          "SQLitePCLRaw.provider.e_sqlite3": "2.1.8"
         },
         "compile": {
           "lib/net6.0-android31.0/SQLitePCLRaw.batteries_v2.dll": {
@@ -228,7 +257,7 @@
           }
         }
       },
-      "SQLitePCLRaw.core/2.1.7": {
+      "SQLitePCLRaw.core/2.1.8": {
         "type": "package",
         "dependencies": {
           "System.Memory": "4.5.3"
@@ -240,7 +269,7 @@
           "lib/netstandard2.0/SQLitePCLRaw.core.dll": {}
         }
       },
-      "SQLitePCLRaw.lib.e_sqlite3.android/2.1.7": {
+      "SQLitePCLRaw.lib.e_sqlite3.android/2.1.8": {
         "type": "package",
         "compile": {
           "lib/net6.0-android31.0/SQLitePCLRaw.lib.e_sqlite3.android.dll": {
@@ -253,10 +282,10 @@
           }
         }
       },
-      "SQLitePCLRaw.provider.e_sqlite3/2.1.7": {
+      "SQLitePCLRaw.provider.e_sqlite3/2.1.8": {
         "type": "package",
         "dependencies": {
-          "SQLitePCLRaw.core": "2.1.7"
+          "SQLitePCLRaw.core": "2.1.8"
         },
         "compile": {
           "lib/net6.0/SQLitePCLRaw.provider.e_sqlite3.dll": {}
@@ -2192,6 +2221,22 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
+      "Microsoft.Maui.Controls.Maps/8.0.7": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Maui.Maps": "8.0.7"
+        },
+        "compile": {
+          "lib/netstandard2.1/Microsoft.Maui.Controls.Maps.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/Microsoft.Maui.Controls.Maps.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "Microsoft.Maui.Dependencies/6.0.553": {
         "type": "package",
         "dependencies": {
@@ -2231,6 +2276,19 @@
           }
         }
       },
+      "Microsoft.Maui.Maps/8.0.7": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/Microsoft.Maui.Maps.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/Microsoft.Maui.Maps.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "sqlite-net-pcl/1.8.116": {
         "type": "package",
         "dependencies": {
@@ -2247,11 +2305,11 @@
           }
         }
       },
-      "SQLitePCLRaw.bundle_green/2.1.7": {
+      "SQLitePCLRaw.bundle_green/2.1.8": {
         "type": "package",
         "dependencies": {
-          "SQLitePCLRaw.lib.e_sqlite3.android": "2.1.7",
-          "SQLitePCLRaw.provider.e_sqlite3": "2.1.7"
+          "SQLitePCLRaw.lib.e_sqlite3.android": "2.1.8",
+          "SQLitePCLRaw.provider.e_sqlite3": "2.1.8"
         },
         "compile": {
           "lib/net6.0-android31.0/SQLitePCLRaw.batteries_v2.dll": {
@@ -2264,7 +2322,7 @@
           }
         }
       },
-      "SQLitePCLRaw.core/2.1.7": {
+      "SQLitePCLRaw.core/2.1.8": {
         "type": "package",
         "dependencies": {
           "System.Memory": "4.5.3"
@@ -2276,7 +2334,7 @@
           "lib/netstandard2.0/SQLitePCLRaw.core.dll": {}
         }
       },
-      "SQLitePCLRaw.lib.e_sqlite3.android/2.1.7": {
+      "SQLitePCLRaw.lib.e_sqlite3.android/2.1.8": {
         "type": "package",
         "compile": {
           "lib/net6.0-android31.0/SQLitePCLRaw.lib.e_sqlite3.android.dll": {
@@ -2289,10 +2347,10 @@
           }
         }
       },
-      "SQLitePCLRaw.provider.e_sqlite3/2.1.7": {
+      "SQLitePCLRaw.provider.e_sqlite3/2.1.8": {
         "type": "package",
         "dependencies": {
-          "SQLitePCLRaw.core": "2.1.7"
+          "SQLitePCLRaw.core": "2.1.8"
         },
         "compile": {
           "lib/net6.0/SQLitePCLRaw.provider.e_sqlite3.dll": {}
@@ -4228,6 +4286,22 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
+      "Microsoft.Maui.Controls.Maps/8.0.7": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Maui.Maps": "8.0.7"
+        },
+        "compile": {
+          "lib/netstandard2.1/Microsoft.Maui.Controls.Maps.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/Microsoft.Maui.Controls.Maps.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "Microsoft.Maui.Dependencies/6.0.553": {
         "type": "package",
         "dependencies": {
@@ -4267,6 +4341,19 @@
           }
         }
       },
+      "Microsoft.Maui.Maps/8.0.7": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/Microsoft.Maui.Maps.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/Microsoft.Maui.Maps.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "sqlite-net-pcl/1.8.116": {
         "type": "package",
         "dependencies": {
@@ -4283,11 +4370,11 @@
           }
         }
       },
-      "SQLitePCLRaw.bundle_green/2.1.7": {
+      "SQLitePCLRaw.bundle_green/2.1.8": {
         "type": "package",
         "dependencies": {
-          "SQLitePCLRaw.lib.e_sqlite3.android": "2.1.7",
-          "SQLitePCLRaw.provider.e_sqlite3": "2.1.7"
+          "SQLitePCLRaw.lib.e_sqlite3.android": "2.1.8",
+          "SQLitePCLRaw.provider.e_sqlite3": "2.1.8"
         },
         "compile": {
           "lib/net6.0-android31.0/SQLitePCLRaw.batteries_v2.dll": {
@@ -4300,7 +4387,7 @@
           }
         }
       },
-      "SQLitePCLRaw.core/2.1.7": {
+      "SQLitePCLRaw.core/2.1.8": {
         "type": "package",
         "dependencies": {
           "System.Memory": "4.5.3"
@@ -4312,7 +4399,7 @@
           "lib/netstandard2.0/SQLitePCLRaw.core.dll": {}
         }
       },
-      "SQLitePCLRaw.lib.e_sqlite3.android/2.1.7": {
+      "SQLitePCLRaw.lib.e_sqlite3.android/2.1.8": {
         "type": "package",
         "compile": {
           "lib/net6.0-android31.0/SQLitePCLRaw.lib.e_sqlite3.android.dll": {
@@ -4325,10 +4412,10 @@
           }
         }
       },
-      "SQLitePCLRaw.provider.e_sqlite3/2.1.7": {
+      "SQLitePCLRaw.provider.e_sqlite3/2.1.8": {
         "type": "package",
         "dependencies": {
-          "SQLitePCLRaw.core": "2.1.7"
+          "SQLitePCLRaw.core": "2.1.8"
         },
         "compile": {
           "lib/net6.0/SQLitePCLRaw.provider.e_sqlite3.dll": {}
@@ -6264,6 +6351,22 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
+      "Microsoft.Maui.Controls.Maps/8.0.7": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Maui.Maps": "8.0.7"
+        },
+        "compile": {
+          "lib/netstandard2.1/Microsoft.Maui.Controls.Maps.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/Microsoft.Maui.Controls.Maps.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "Microsoft.Maui.Dependencies/6.0.553": {
         "type": "package",
         "dependencies": {
@@ -6303,6 +6406,19 @@
           }
         }
       },
+      "Microsoft.Maui.Maps/8.0.7": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/Microsoft.Maui.Maps.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/Microsoft.Maui.Maps.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "sqlite-net-pcl/1.8.116": {
         "type": "package",
         "dependencies": {
@@ -6319,11 +6435,11 @@
           }
         }
       },
-      "SQLitePCLRaw.bundle_green/2.1.7": {
+      "SQLitePCLRaw.bundle_green/2.1.8": {
         "type": "package",
         "dependencies": {
-          "SQLitePCLRaw.lib.e_sqlite3.android": "2.1.7",
-          "SQLitePCLRaw.provider.e_sqlite3": "2.1.7"
+          "SQLitePCLRaw.lib.e_sqlite3.android": "2.1.8",
+          "SQLitePCLRaw.provider.e_sqlite3": "2.1.8"
         },
         "compile": {
           "lib/net6.0-android31.0/SQLitePCLRaw.batteries_v2.dll": {
@@ -6336,7 +6452,7 @@
           }
         }
       },
-      "SQLitePCLRaw.core/2.1.7": {
+      "SQLitePCLRaw.core/2.1.8": {
         "type": "package",
         "dependencies": {
           "System.Memory": "4.5.3"
@@ -6348,7 +6464,7 @@
           "lib/netstandard2.0/SQLitePCLRaw.core.dll": {}
         }
       },
-      "SQLitePCLRaw.lib.e_sqlite3.android/2.1.7": {
+      "SQLitePCLRaw.lib.e_sqlite3.android/2.1.8": {
         "type": "package",
         "compile": {
           "lib/net6.0-android31.0/SQLitePCLRaw.lib.e_sqlite3.android.dll": {
@@ -6361,10 +6477,10 @@
           }
         }
       },
-      "SQLitePCLRaw.provider.e_sqlite3/2.1.7": {
+      "SQLitePCLRaw.provider.e_sqlite3/2.1.8": {
         "type": "package",
         "dependencies": {
-          "SQLitePCLRaw.core": "2.1.7"
+          "SQLitePCLRaw.core": "2.1.8"
         },
         "compile": {
           "lib/net6.0/SQLitePCLRaw.provider.e_sqlite3.dll": {}
@@ -8300,6 +8416,22 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
+      "Microsoft.Maui.Controls.Maps/8.0.7": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Maui.Maps": "8.0.7"
+        },
+        "compile": {
+          "lib/netstandard2.1/Microsoft.Maui.Controls.Maps.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/Microsoft.Maui.Controls.Maps.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "Microsoft.Maui.Dependencies/6.0.553": {
         "type": "package",
         "dependencies": {
@@ -8339,6 +8471,19 @@
           }
         }
       },
+      "Microsoft.Maui.Maps/8.0.7": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/Microsoft.Maui.Maps.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/Microsoft.Maui.Maps.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "sqlite-net-pcl/1.8.116": {
         "type": "package",
         "dependencies": {
@@ -8355,11 +8500,11 @@
           }
         }
       },
-      "SQLitePCLRaw.bundle_green/2.1.7": {
+      "SQLitePCLRaw.bundle_green/2.1.8": {
         "type": "package",
         "dependencies": {
-          "SQLitePCLRaw.lib.e_sqlite3.android": "2.1.7",
-          "SQLitePCLRaw.provider.e_sqlite3": "2.1.7"
+          "SQLitePCLRaw.lib.e_sqlite3.android": "2.1.8",
+          "SQLitePCLRaw.provider.e_sqlite3": "2.1.8"
         },
         "compile": {
           "lib/net6.0-android31.0/SQLitePCLRaw.batteries_v2.dll": {
@@ -8372,7 +8517,7 @@
           }
         }
       },
-      "SQLitePCLRaw.core/2.1.7": {
+      "SQLitePCLRaw.core/2.1.8": {
         "type": "package",
         "dependencies": {
           "System.Memory": "4.5.3"
@@ -8384,7 +8529,7 @@
           "lib/netstandard2.0/SQLitePCLRaw.core.dll": {}
         }
       },
-      "SQLitePCLRaw.lib.e_sqlite3.android/2.1.7": {
+      "SQLitePCLRaw.lib.e_sqlite3.android/2.1.8": {
         "type": "package",
         "compile": {
           "lib/net6.0-android31.0/SQLitePCLRaw.lib.e_sqlite3.android.dll": {
@@ -8397,10 +8542,10 @@
           }
         }
       },
-      "SQLitePCLRaw.provider.e_sqlite3/2.1.7": {
+      "SQLitePCLRaw.provider.e_sqlite3/2.1.8": {
         "type": "package",
         "dependencies": {
-          "SQLitePCLRaw.core": "2.1.7"
+          "SQLitePCLRaw.core": "2.1.8"
         },
         "compile": {
           "lib/net6.0/SQLitePCLRaw.provider.e_sqlite3.dll": {}
@@ -10336,6 +10481,22 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
+      "Microsoft.Maui.Controls.Maps/8.0.7": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Maui.Maps": "8.0.7"
+        },
+        "compile": {
+          "lib/netstandard2.1/Microsoft.Maui.Controls.Maps.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/Microsoft.Maui.Controls.Maps.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "Microsoft.Maui.Dependencies/6.0.553": {
         "type": "package",
         "dependencies": {
@@ -10375,6 +10536,19 @@
           }
         }
       },
+      "Microsoft.Maui.Maps/8.0.7": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/Microsoft.Maui.Maps.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/Microsoft.Maui.Maps.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "sqlite-net-pcl/1.8.116": {
         "type": "package",
         "dependencies": {
@@ -10391,11 +10565,11 @@
           }
         }
       },
-      "SQLitePCLRaw.bundle_green/2.1.7": {
+      "SQLitePCLRaw.bundle_green/2.1.8": {
         "type": "package",
         "dependencies": {
-          "SQLitePCLRaw.lib.e_sqlite3.android": "2.1.7",
-          "SQLitePCLRaw.provider.e_sqlite3": "2.1.7"
+          "SQLitePCLRaw.lib.e_sqlite3.android": "2.1.8",
+          "SQLitePCLRaw.provider.e_sqlite3": "2.1.8"
         },
         "compile": {
           "lib/net6.0-android31.0/SQLitePCLRaw.batteries_v2.dll": {
@@ -10408,7 +10582,7 @@
           }
         }
       },
-      "SQLitePCLRaw.core/2.1.7": {
+      "SQLitePCLRaw.core/2.1.8": {
         "type": "package",
         "dependencies": {
           "System.Memory": "4.5.3"
@@ -10420,7 +10594,7 @@
           "lib/netstandard2.0/SQLitePCLRaw.core.dll": {}
         }
       },
-      "SQLitePCLRaw.lib.e_sqlite3.android/2.1.7": {
+      "SQLitePCLRaw.lib.e_sqlite3.android/2.1.8": {
         "type": "package",
         "compile": {
           "lib/net6.0-android31.0/SQLitePCLRaw.lib.e_sqlite3.android.dll": {
@@ -10433,10 +10607,10 @@
           }
         }
       },
-      "SQLitePCLRaw.provider.e_sqlite3/2.1.7": {
+      "SQLitePCLRaw.provider.e_sqlite3/2.1.8": {
         "type": "package",
         "dependencies": {
-          "SQLitePCLRaw.core": "2.1.7"
+          "SQLitePCLRaw.core": "2.1.8"
         },
         "compile": {
           "lib/net6.0/SQLitePCLRaw.provider.e_sqlite3.dll": {}
@@ -12372,6 +12546,22 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
+      "Microsoft.Maui.Controls.Maps/8.0.7": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Maui.Maps": "8.0.7"
+        },
+        "compile": {
+          "lib/netstandard2.1/Microsoft.Maui.Controls.Maps.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/Microsoft.Maui.Controls.Maps.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "Microsoft.Maui.Dependencies/6.0.553": {
         "type": "package",
         "dependencies": {
@@ -12411,6 +12601,19 @@
           }
         }
       },
+      "Microsoft.Maui.Maps/8.0.7": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/Microsoft.Maui.Maps.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/Microsoft.Maui.Maps.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "sqlite-net-pcl/1.8.116": {
         "type": "package",
         "dependencies": {
@@ -12427,11 +12630,11 @@
           }
         }
       },
-      "SQLitePCLRaw.bundle_green/2.1.7": {
+      "SQLitePCLRaw.bundle_green/2.1.8": {
         "type": "package",
         "dependencies": {
-          "SQLitePCLRaw.lib.e_sqlite3.android": "2.1.7",
-          "SQLitePCLRaw.provider.e_sqlite3": "2.1.7"
+          "SQLitePCLRaw.lib.e_sqlite3.android": "2.1.8",
+          "SQLitePCLRaw.provider.e_sqlite3": "2.1.8"
         },
         "compile": {
           "lib/net6.0-android31.0/SQLitePCLRaw.batteries_v2.dll": {
@@ -12444,7 +12647,7 @@
           }
         }
       },
-      "SQLitePCLRaw.core/2.1.7": {
+      "SQLitePCLRaw.core/2.1.8": {
         "type": "package",
         "dependencies": {
           "System.Memory": "4.5.3"
@@ -12456,7 +12659,7 @@
           "lib/netstandard2.0/SQLitePCLRaw.core.dll": {}
         }
       },
-      "SQLitePCLRaw.lib.e_sqlite3.android/2.1.7": {
+      "SQLitePCLRaw.lib.e_sqlite3.android/2.1.8": {
         "type": "package",
         "compile": {
           "lib/net6.0-android31.0/SQLitePCLRaw.lib.e_sqlite3.android.dll": {
@@ -12469,10 +12672,10 @@
           }
         }
       },
-      "SQLitePCLRaw.provider.e_sqlite3/2.1.7": {
+      "SQLitePCLRaw.provider.e_sqlite3/2.1.8": {
         "type": "package",
         "dependencies": {
-          "SQLitePCLRaw.core": "2.1.7"
+          "SQLitePCLRaw.core": "2.1.8"
         },
         "compile": {
           "lib/net6.0/SQLitePCLRaw.provider.e_sqlite3.dll": {}
@@ -14395,6 +14598,22 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
+      "Microsoft.Maui.Controls.Maps/8.0.7": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Maui.Maps": "8.0.7"
+        },
+        "compile": {
+          "lib/netstandard2.1/Microsoft.Maui.Controls.Maps.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/Microsoft.Maui.Controls.Maps.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "Microsoft.Maui.Dependencies/6.0.553": {
         "type": "package",
         "dependencies": {
@@ -14425,6 +14644,19 @@
           }
         }
       },
+      "Microsoft.Maui.Maps/8.0.7": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/Microsoft.Maui.Maps.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/Microsoft.Maui.Maps.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "sqlite-net-pcl/1.8.116": {
         "type": "package",
         "dependencies": {
@@ -14441,10 +14673,10 @@
           }
         }
       },
-      "SQLitePCLRaw.bundle_green/2.1.7": {
+      "SQLitePCLRaw.bundle_green/2.1.8": {
         "type": "package",
         "dependencies": {
-          "SQLitePCLRaw.provider.sqlite3": "2.1.7",
+          "SQLitePCLRaw.provider.sqlite3": "2.1.8",
           "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
         },
         "compile": {
@@ -14454,7 +14686,7 @@
           "lib/net6.0-ios14.2/SQLitePCLRaw.batteries_v2.dll": {}
         }
       },
-      "SQLitePCLRaw.core/2.1.7": {
+      "SQLitePCLRaw.core/2.1.8": {
         "type": "package",
         "dependencies": {
           "System.Memory": "4.5.3"
@@ -14466,10 +14698,10 @@
           "lib/netstandard2.0/SQLitePCLRaw.core.dll": {}
         }
       },
-      "SQLitePCLRaw.provider.sqlite3/2.1.7": {
+      "SQLitePCLRaw.provider.sqlite3/2.1.8": {
         "type": "package",
         "dependencies": {
-          "SQLitePCLRaw.core": "2.1.7"
+          "SQLitePCLRaw.core": "2.1.8"
         },
         "compile": {
           "lib/net6.0/SQLitePCLRaw.provider.sqlite3.dll": {}
@@ -14673,6 +14905,22 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
+      "Microsoft.Maui.Controls.Maps/8.0.7": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Maui.Maps": "8.0.7"
+        },
+        "compile": {
+          "lib/netstandard2.1/Microsoft.Maui.Controls.Maps.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/Microsoft.Maui.Controls.Maps.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "Microsoft.Maui.Dependencies/6.0.553": {
         "type": "package",
         "dependencies": {
@@ -14703,6 +14951,19 @@
           }
         }
       },
+      "Microsoft.Maui.Maps/8.0.7": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/Microsoft.Maui.Maps.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/Microsoft.Maui.Maps.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "sqlite-net-pcl/1.8.116": {
         "type": "package",
         "dependencies": {
@@ -14719,10 +14980,10 @@
           }
         }
       },
-      "SQLitePCLRaw.bundle_green/2.1.7": {
+      "SQLitePCLRaw.bundle_green/2.1.8": {
         "type": "package",
         "dependencies": {
-          "SQLitePCLRaw.provider.sqlite3": "2.1.7",
+          "SQLitePCLRaw.provider.sqlite3": "2.1.8",
           "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
         },
         "compile": {
@@ -14732,7 +14993,7 @@
           "lib/net6.0-ios14.2/SQLitePCLRaw.batteries_v2.dll": {}
         }
       },
-      "SQLitePCLRaw.core/2.1.7": {
+      "SQLitePCLRaw.core/2.1.8": {
         "type": "package",
         "dependencies": {
           "System.Memory": "4.5.3"
@@ -14744,10 +15005,10 @@
           "lib/netstandard2.0/SQLitePCLRaw.core.dll": {}
         }
       },
-      "SQLitePCLRaw.provider.sqlite3/2.1.7": {
+      "SQLitePCLRaw.provider.sqlite3/2.1.8": {
         "type": "package",
         "dependencies": {
-          "SQLitePCLRaw.core": "2.1.7"
+          "SQLitePCLRaw.core": "2.1.8"
         },
         "compile": {
           "lib/net6.0/SQLitePCLRaw.provider.sqlite3.dll": {}
@@ -14951,6 +15212,22 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
+      "Microsoft.Maui.Controls.Maps/8.0.7": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Maui.Maps": "8.0.7"
+        },
+        "compile": {
+          "lib/netstandard2.1/Microsoft.Maui.Controls.Maps.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/Microsoft.Maui.Controls.Maps.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "Microsoft.Maui.Dependencies/6.0.553": {
         "type": "package",
         "dependencies": {
@@ -14981,6 +15258,19 @@
           }
         }
       },
+      "Microsoft.Maui.Maps/8.0.7": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/Microsoft.Maui.Maps.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/Microsoft.Maui.Maps.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "sqlite-net-pcl/1.8.116": {
         "type": "package",
         "dependencies": {
@@ -14997,10 +15287,10 @@
           }
         }
       },
-      "SQLitePCLRaw.bundle_green/2.1.7": {
+      "SQLitePCLRaw.bundle_green/2.1.8": {
         "type": "package",
         "dependencies": {
-          "SQLitePCLRaw.provider.sqlite3": "2.1.7",
+          "SQLitePCLRaw.provider.sqlite3": "2.1.8",
           "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
         },
         "compile": {
@@ -15010,7 +15300,7 @@
           "lib/net6.0-ios14.2/SQLitePCLRaw.batteries_v2.dll": {}
         }
       },
-      "SQLitePCLRaw.core/2.1.7": {
+      "SQLitePCLRaw.core/2.1.8": {
         "type": "package",
         "dependencies": {
           "System.Memory": "4.5.3"
@@ -15022,10 +15312,10 @@
           "lib/netstandard2.0/SQLitePCLRaw.core.dll": {}
         }
       },
-      "SQLitePCLRaw.provider.sqlite3/2.1.7": {
+      "SQLitePCLRaw.provider.sqlite3/2.1.8": {
         "type": "package",
         "dependencies": {
-          "SQLitePCLRaw.core": "2.1.7"
+          "SQLitePCLRaw.core": "2.1.8"
         },
         "compile": {
           "lib/net6.0/SQLitePCLRaw.provider.sqlite3.dll": {}
@@ -15229,6 +15519,22 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
+      "Microsoft.Maui.Controls.Maps/8.0.7": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Maui.Maps": "8.0.7"
+        },
+        "compile": {
+          "lib/netstandard2.1/Microsoft.Maui.Controls.Maps.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/Microsoft.Maui.Controls.Maps.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "Microsoft.Maui.Dependencies/6.0.553": {
         "type": "package",
         "dependencies": {
@@ -15259,6 +15565,19 @@
           }
         }
       },
+      "Microsoft.Maui.Maps/8.0.7": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/Microsoft.Maui.Maps.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/Microsoft.Maui.Maps.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "sqlite-net-pcl/1.8.116": {
         "type": "package",
         "dependencies": {
@@ -15275,10 +15594,10 @@
           }
         }
       },
-      "SQLitePCLRaw.bundle_green/2.1.7": {
+      "SQLitePCLRaw.bundle_green/2.1.8": {
         "type": "package",
         "dependencies": {
-          "SQLitePCLRaw.provider.sqlite3": "2.1.7",
+          "SQLitePCLRaw.provider.sqlite3": "2.1.8",
           "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
         },
         "compile": {
@@ -15288,7 +15607,7 @@
           "lib/net6.0-ios14.2/SQLitePCLRaw.batteries_v2.dll": {}
         }
       },
-      "SQLitePCLRaw.core/2.1.7": {
+      "SQLitePCLRaw.core/2.1.8": {
         "type": "package",
         "dependencies": {
           "System.Memory": "4.5.3"
@@ -15300,10 +15619,10 @@
           "lib/netstandard2.0/SQLitePCLRaw.core.dll": {}
         }
       },
-      "SQLitePCLRaw.provider.sqlite3/2.1.7": {
+      "SQLitePCLRaw.provider.sqlite3/2.1.8": {
         "type": "package",
         "dependencies": {
-          "SQLitePCLRaw.core": "2.1.7"
+          "SQLitePCLRaw.core": "2.1.8"
         },
         "compile": {
           "lib/net6.0/SQLitePCLRaw.provider.sqlite3.dll": {}
@@ -15507,6 +15826,22 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
+      "Microsoft.Maui.Controls.Maps/8.0.7": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Maui.Maps": "8.0.7"
+        },
+        "compile": {
+          "lib/netstandard2.1/Microsoft.Maui.Controls.Maps.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/Microsoft.Maui.Controls.Maps.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "Microsoft.Maui.Dependencies/6.0.553": {
         "type": "package",
         "dependencies": {
@@ -15537,6 +15872,19 @@
           }
         }
       },
+      "Microsoft.Maui.Maps/8.0.7": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/Microsoft.Maui.Maps.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/Microsoft.Maui.Maps.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "sqlite-net-pcl/1.8.116": {
         "type": "package",
         "dependencies": {
@@ -15553,10 +15901,10 @@
           }
         }
       },
-      "SQLitePCLRaw.bundle_green/2.1.7": {
+      "SQLitePCLRaw.bundle_green/2.1.8": {
         "type": "package",
         "dependencies": {
-          "SQLitePCLRaw.provider.sqlite3": "2.1.7",
+          "SQLitePCLRaw.provider.sqlite3": "2.1.8",
           "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
         },
         "compile": {
@@ -15566,7 +15914,7 @@
           "lib/net6.0-ios14.2/SQLitePCLRaw.batteries_v2.dll": {}
         }
       },
-      "SQLitePCLRaw.core/2.1.7": {
+      "SQLitePCLRaw.core/2.1.8": {
         "type": "package",
         "dependencies": {
           "System.Memory": "4.5.3"
@@ -15578,10 +15926,10 @@
           "lib/netstandard2.0/SQLitePCLRaw.core.dll": {}
         }
       },
-      "SQLitePCLRaw.provider.sqlite3/2.1.7": {
+      "SQLitePCLRaw.provider.sqlite3/2.1.8": {
         "type": "package",
         "dependencies": {
-          "SQLitePCLRaw.core": "2.1.7"
+          "SQLitePCLRaw.core": "2.1.8"
         },
         "compile": {
           "lib/net6.0/SQLitePCLRaw.provider.sqlite3.dll": {}
@@ -15785,6 +16133,22 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
+      "Microsoft.Maui.Controls.Maps/8.0.7": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Maui.Maps": "8.0.7"
+        },
+        "compile": {
+          "lib/netstandard2.1/Microsoft.Maui.Controls.Maps.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/Microsoft.Maui.Controls.Maps.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "Microsoft.Maui.Dependencies/6.0.553": {
         "type": "package",
         "dependencies": {
@@ -15815,6 +16179,19 @@
           }
         }
       },
+      "Microsoft.Maui.Maps/8.0.7": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/Microsoft.Maui.Maps.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/Microsoft.Maui.Maps.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "sqlite-net-pcl/1.8.116": {
         "type": "package",
         "dependencies": {
@@ -15831,10 +16208,10 @@
           }
         }
       },
-      "SQLitePCLRaw.bundle_green/2.1.7": {
+      "SQLitePCLRaw.bundle_green/2.1.8": {
         "type": "package",
         "dependencies": {
-          "SQLitePCLRaw.provider.sqlite3": "2.1.7",
+          "SQLitePCLRaw.provider.sqlite3": "2.1.8",
           "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
         },
         "compile": {
@@ -15844,7 +16221,7 @@
           "lib/net6.0-ios14.2/SQLitePCLRaw.batteries_v2.dll": {}
         }
       },
-      "SQLitePCLRaw.core/2.1.7": {
+      "SQLitePCLRaw.core/2.1.8": {
         "type": "package",
         "dependencies": {
           "System.Memory": "4.5.3"
@@ -15856,10 +16233,10 @@
           "lib/netstandard2.0/SQLitePCLRaw.core.dll": {}
         }
       },
-      "SQLitePCLRaw.provider.sqlite3/2.1.7": {
+      "SQLitePCLRaw.provider.sqlite3/2.1.8": {
         "type": "package",
         "dependencies": {
-          "SQLitePCLRaw.core": "2.1.7"
+          "SQLitePCLRaw.core": "2.1.8"
         },
         "compile": {
           "lib/net6.0/SQLitePCLRaw.provider.sqlite3.dll": {}
@@ -16063,6 +16440,22 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
+      "Microsoft.Maui.Controls.Maps/8.0.7": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Maui.Maps": "8.0.7"
+        },
+        "compile": {
+          "lib/netstandard2.1/Microsoft.Maui.Controls.Maps.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/Microsoft.Maui.Controls.Maps.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "Microsoft.Maui.Dependencies/6.0.553": {
         "type": "package",
         "dependencies": {
@@ -16093,6 +16486,19 @@
           }
         }
       },
+      "Microsoft.Maui.Maps/8.0.7": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/Microsoft.Maui.Maps.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/Microsoft.Maui.Maps.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "sqlite-net-pcl/1.8.116": {
         "type": "package",
         "dependencies": {
@@ -16109,10 +16515,10 @@
           }
         }
       },
-      "SQLitePCLRaw.bundle_green/2.1.7": {
+      "SQLitePCLRaw.bundle_green/2.1.8": {
         "type": "package",
         "dependencies": {
-          "SQLitePCLRaw.provider.sqlite3": "2.1.7",
+          "SQLitePCLRaw.provider.sqlite3": "2.1.8",
           "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
         },
         "compile": {
@@ -16122,7 +16528,7 @@
           "lib/net6.0-ios14.2/SQLitePCLRaw.batteries_v2.dll": {}
         }
       },
-      "SQLitePCLRaw.core/2.1.7": {
+      "SQLitePCLRaw.core/2.1.8": {
         "type": "package",
         "dependencies": {
           "System.Memory": "4.5.3"
@@ -16134,10 +16540,10 @@
           "lib/netstandard2.0/SQLitePCLRaw.core.dll": {}
         }
       },
-      "SQLitePCLRaw.provider.sqlite3/2.1.7": {
+      "SQLitePCLRaw.provider.sqlite3/2.1.8": {
         "type": "package",
         "dependencies": {
-          "SQLitePCLRaw.core": "2.1.7"
+          "SQLitePCLRaw.core": "2.1.8"
         },
         "compile": {
           "lib/net6.0/SQLitePCLRaw.provider.sqlite3.dll": {}
@@ -16341,6 +16747,22 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
+      "Microsoft.Maui.Controls.Maps/8.0.7": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Maui.Maps": "8.0.7"
+        },
+        "compile": {
+          "lib/netstandard2.1/Microsoft.Maui.Controls.Maps.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/Microsoft.Maui.Controls.Maps.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "Microsoft.Maui.Dependencies/6.0.553": {
         "type": "package",
         "dependencies": {
@@ -16371,6 +16793,19 @@
           }
         }
       },
+      "Microsoft.Maui.Maps/8.0.7": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/Microsoft.Maui.Maps.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/Microsoft.Maui.Maps.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "sqlite-net-pcl/1.8.116": {
         "type": "package",
         "dependencies": {
@@ -16387,11 +16822,11 @@
           }
         }
       },
-      "SQLitePCLRaw.bundle_green/2.1.7": {
+      "SQLitePCLRaw.bundle_green/2.1.8": {
         "type": "package",
         "dependencies": {
-          "SQLitePCLRaw.lib.e_sqlite3": "2.1.7",
-          "SQLitePCLRaw.provider.e_sqlite3": "2.1.7"
+          "SQLitePCLRaw.lib.e_sqlite3": "2.1.8",
+          "SQLitePCLRaw.provider.e_sqlite3": "2.1.8"
         },
         "compile": {
           "lib/netstandard2.0/SQLitePCLRaw.batteries_v2.dll": {}
@@ -16400,7 +16835,7 @@
           "lib/netstandard2.0/SQLitePCLRaw.batteries_v2.dll": {}
         }
       },
-      "SQLitePCLRaw.core/2.1.7": {
+      "SQLitePCLRaw.core/2.1.8": {
         "type": "package",
         "dependencies": {
           "System.Memory": "4.5.3"
@@ -16412,7 +16847,7 @@
           "lib/netstandard2.0/SQLitePCLRaw.core.dll": {}
         }
       },
-      "SQLitePCLRaw.lib.e_sqlite3/2.1.7": {
+      "SQLitePCLRaw.lib.e_sqlite3/2.1.8": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/_._": {}
@@ -16510,10 +16945,10 @@
           }
         }
       },
-      "SQLitePCLRaw.provider.e_sqlite3/2.1.7": {
+      "SQLitePCLRaw.provider.e_sqlite3/2.1.8": {
         "type": "package",
         "dependencies": {
-          "SQLitePCLRaw.core": "2.1.7"
+          "SQLitePCLRaw.core": "2.1.8"
         },
         "compile": {
           "lib/net6.0/SQLitePCLRaw.provider.e_sqlite3.dll": {}
@@ -16717,6 +17152,22 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
+      "Microsoft.Maui.Controls.Maps/8.0.7": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Maui.Maps": "8.0.7"
+        },
+        "compile": {
+          "lib/netstandard2.1/Microsoft.Maui.Controls.Maps.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/Microsoft.Maui.Controls.Maps.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "Microsoft.Maui.Dependencies/6.0.553": {
         "type": "package",
         "dependencies": {
@@ -16747,6 +17198,19 @@
           }
         }
       },
+      "Microsoft.Maui.Maps/8.0.7": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/Microsoft.Maui.Maps.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/Microsoft.Maui.Maps.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "sqlite-net-pcl/1.8.116": {
         "type": "package",
         "dependencies": {
@@ -16763,11 +17227,11 @@
           }
         }
       },
-      "SQLitePCLRaw.bundle_green/2.1.7": {
+      "SQLitePCLRaw.bundle_green/2.1.8": {
         "type": "package",
         "dependencies": {
-          "SQLitePCLRaw.lib.e_sqlite3": "2.1.7",
-          "SQLitePCLRaw.provider.e_sqlite3": "2.1.7"
+          "SQLitePCLRaw.lib.e_sqlite3": "2.1.8",
+          "SQLitePCLRaw.provider.e_sqlite3": "2.1.8"
         },
         "compile": {
           "lib/netstandard2.0/SQLitePCLRaw.batteries_v2.dll": {}
@@ -16776,7 +17240,7 @@
           "lib/netstandard2.0/SQLitePCLRaw.batteries_v2.dll": {}
         }
       },
-      "SQLitePCLRaw.core/2.1.7": {
+      "SQLitePCLRaw.core/2.1.8": {
         "type": "package",
         "dependencies": {
           "System.Memory": "4.5.3"
@@ -16788,7 +17252,7 @@
           "lib/netstandard2.0/SQLitePCLRaw.core.dll": {}
         }
       },
-      "SQLitePCLRaw.lib.e_sqlite3/2.1.7": {
+      "SQLitePCLRaw.lib.e_sqlite3/2.1.8": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/_._": {}
@@ -16803,10 +17267,10 @@
           "buildTransitive/net6.0/SQLitePCLRaw.lib.e_sqlite3.targets": {}
         }
       },
-      "SQLitePCLRaw.provider.e_sqlite3/2.1.7": {
+      "SQLitePCLRaw.provider.e_sqlite3/2.1.8": {
         "type": "package",
         "dependencies": {
-          "SQLitePCLRaw.core": "2.1.7"
+          "SQLitePCLRaw.core": "2.1.8"
         },
         "compile": {
           "lib/net6.0/SQLitePCLRaw.provider.e_sqlite3.dll": {}
@@ -17010,6 +17474,22 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
+      "Microsoft.Maui.Controls.Maps/8.0.7": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Maui.Maps": "8.0.7"
+        },
+        "compile": {
+          "lib/netstandard2.1/Microsoft.Maui.Controls.Maps.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/Microsoft.Maui.Controls.Maps.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "Microsoft.Maui.Dependencies/6.0.553": {
         "type": "package",
         "dependencies": {
@@ -17040,6 +17520,19 @@
           }
         }
       },
+      "Microsoft.Maui.Maps/8.0.7": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/Microsoft.Maui.Maps.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/Microsoft.Maui.Maps.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "sqlite-net-pcl/1.8.116": {
         "type": "package",
         "dependencies": {
@@ -17056,11 +17549,11 @@
           }
         }
       },
-      "SQLitePCLRaw.bundle_green/2.1.7": {
+      "SQLitePCLRaw.bundle_green/2.1.8": {
         "type": "package",
         "dependencies": {
-          "SQLitePCLRaw.lib.e_sqlite3": "2.1.7",
-          "SQLitePCLRaw.provider.e_sqlite3": "2.1.7"
+          "SQLitePCLRaw.lib.e_sqlite3": "2.1.8",
+          "SQLitePCLRaw.provider.e_sqlite3": "2.1.8"
         },
         "compile": {
           "lib/netstandard2.0/SQLitePCLRaw.batteries_v2.dll": {}
@@ -17069,7 +17562,7 @@
           "lib/netstandard2.0/SQLitePCLRaw.batteries_v2.dll": {}
         }
       },
-      "SQLitePCLRaw.core/2.1.7": {
+      "SQLitePCLRaw.core/2.1.8": {
         "type": "package",
         "dependencies": {
           "System.Memory": "4.5.3"
@@ -17081,7 +17574,7 @@
           "lib/netstandard2.0/SQLitePCLRaw.core.dll": {}
         }
       },
-      "SQLitePCLRaw.lib.e_sqlite3/2.1.7": {
+      "SQLitePCLRaw.lib.e_sqlite3/2.1.8": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/_._": {}
@@ -17096,10 +17589,10 @@
           "buildTransitive/net6.0/SQLitePCLRaw.lib.e_sqlite3.targets": {}
         }
       },
-      "SQLitePCLRaw.provider.e_sqlite3/2.1.7": {
+      "SQLitePCLRaw.provider.e_sqlite3/2.1.8": {
         "type": "package",
         "dependencies": {
-          "SQLitePCLRaw.core": "2.1.7"
+          "SQLitePCLRaw.core": "2.1.8"
         },
         "compile": {
           "lib/net6.0/SQLitePCLRaw.provider.e_sqlite3.dll": {}
@@ -17303,6 +17796,22 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
+      "Microsoft.Maui.Controls.Maps/8.0.7": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Maui.Maps": "8.0.7"
+        },
+        "compile": {
+          "lib/netstandard2.1/Microsoft.Maui.Controls.Maps.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/Microsoft.Maui.Controls.Maps.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "Microsoft.Maui.Dependencies/6.0.553": {
         "type": "package",
         "dependencies": {
@@ -17333,6 +17842,19 @@
           }
         }
       },
+      "Microsoft.Maui.Maps/8.0.7": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/Microsoft.Maui.Maps.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/Microsoft.Maui.Maps.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "sqlite-net-pcl/1.8.116": {
         "type": "package",
         "dependencies": {
@@ -17349,11 +17871,11 @@
           }
         }
       },
-      "SQLitePCLRaw.bundle_green/2.1.7": {
+      "SQLitePCLRaw.bundle_green/2.1.8": {
         "type": "package",
         "dependencies": {
-          "SQLitePCLRaw.lib.e_sqlite3": "2.1.7",
-          "SQLitePCLRaw.provider.e_sqlite3": "2.1.7"
+          "SQLitePCLRaw.lib.e_sqlite3": "2.1.8",
+          "SQLitePCLRaw.provider.e_sqlite3": "2.1.8"
         },
         "compile": {
           "lib/netstandard2.0/SQLitePCLRaw.batteries_v2.dll": {}
@@ -17362,7 +17884,7 @@
           "lib/netstandard2.0/SQLitePCLRaw.batteries_v2.dll": {}
         }
       },
-      "SQLitePCLRaw.core/2.1.7": {
+      "SQLitePCLRaw.core/2.1.8": {
         "type": "package",
         "dependencies": {
           "System.Memory": "4.5.3"
@@ -17374,7 +17896,7 @@
           "lib/netstandard2.0/SQLitePCLRaw.core.dll": {}
         }
       },
-      "SQLitePCLRaw.lib.e_sqlite3/2.1.7": {
+      "SQLitePCLRaw.lib.e_sqlite3/2.1.8": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/_._": {}
@@ -17389,10 +17911,10 @@
           "buildTransitive/net6.0/SQLitePCLRaw.lib.e_sqlite3.targets": {}
         }
       },
-      "SQLitePCLRaw.provider.e_sqlite3/2.1.7": {
+      "SQLitePCLRaw.provider.e_sqlite3/2.1.8": {
         "type": "package",
         "dependencies": {
-          "SQLitePCLRaw.core": "2.1.7"
+          "SQLitePCLRaw.core": "2.1.8"
         },
         "compile": {
           "lib/net6.0/SQLitePCLRaw.provider.e_sqlite3.dll": {}
@@ -17596,6 +18118,22 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
+      "Microsoft.Maui.Controls.Maps/8.0.7": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Maui.Maps": "8.0.7"
+        },
+        "compile": {
+          "lib/netstandard2.1/Microsoft.Maui.Controls.Maps.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/Microsoft.Maui.Controls.Maps.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "Microsoft.Maui.Dependencies/6.0.553": {
         "type": "package",
         "dependencies": {
@@ -17626,6 +18164,19 @@
           }
         }
       },
+      "Microsoft.Maui.Maps/8.0.7": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/Microsoft.Maui.Maps.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/Microsoft.Maui.Maps.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "sqlite-net-pcl/1.8.116": {
         "type": "package",
         "dependencies": {
@@ -17642,11 +18193,11 @@
           }
         }
       },
-      "SQLitePCLRaw.bundle_green/2.1.7": {
+      "SQLitePCLRaw.bundle_green/2.1.8": {
         "type": "package",
         "dependencies": {
-          "SQLitePCLRaw.lib.e_sqlite3": "2.1.7",
-          "SQLitePCLRaw.provider.e_sqlite3": "2.1.7"
+          "SQLitePCLRaw.lib.e_sqlite3": "2.1.8",
+          "SQLitePCLRaw.provider.e_sqlite3": "2.1.8"
         },
         "compile": {
           "lib/netstandard2.0/SQLitePCLRaw.batteries_v2.dll": {}
@@ -17655,7 +18206,7 @@
           "lib/netstandard2.0/SQLitePCLRaw.batteries_v2.dll": {}
         }
       },
-      "SQLitePCLRaw.core/2.1.7": {
+      "SQLitePCLRaw.core/2.1.8": {
         "type": "package",
         "dependencies": {
           "System.Memory": "4.5.3"
@@ -17667,7 +18218,7 @@
           "lib/netstandard2.0/SQLitePCLRaw.core.dll": {}
         }
       },
-      "SQLitePCLRaw.lib.e_sqlite3/2.1.7": {
+      "SQLitePCLRaw.lib.e_sqlite3/2.1.8": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/_._": {}
@@ -17682,10 +18233,10 @@
           "buildTransitive/net6.0/SQLitePCLRaw.lib.e_sqlite3.targets": {}
         }
       },
-      "SQLitePCLRaw.provider.e_sqlite3/2.1.7": {
+      "SQLitePCLRaw.provider.e_sqlite3/2.1.8": {
         "type": "package",
         "dependencies": {
-          "SQLitePCLRaw.core": "2.1.7"
+          "SQLitePCLRaw.core": "2.1.8"
         },
         "compile": {
           "lib/net6.0/SQLitePCLRaw.provider.e_sqlite3.dll": {}
@@ -17889,6 +18440,22 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
+      "Microsoft.Maui.Controls.Maps/8.0.7": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Maui.Maps": "8.0.7"
+        },
+        "compile": {
+          "lib/netstandard2.1/Microsoft.Maui.Controls.Maps.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/Microsoft.Maui.Controls.Maps.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "Microsoft.Maui.Dependencies/6.0.553": {
         "type": "package",
         "dependencies": {
@@ -17919,6 +18486,19 @@
           }
         }
       },
+      "Microsoft.Maui.Maps/8.0.7": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/Microsoft.Maui.Maps.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/Microsoft.Maui.Maps.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "sqlite-net-pcl/1.8.116": {
         "type": "package",
         "dependencies": {
@@ -17935,11 +18515,11 @@
           }
         }
       },
-      "SQLitePCLRaw.bundle_green/2.1.7": {
+      "SQLitePCLRaw.bundle_green/2.1.8": {
         "type": "package",
         "dependencies": {
-          "SQLitePCLRaw.lib.e_sqlite3": "2.1.7",
-          "SQLitePCLRaw.provider.e_sqlite3": "2.1.7"
+          "SQLitePCLRaw.lib.e_sqlite3": "2.1.8",
+          "SQLitePCLRaw.provider.e_sqlite3": "2.1.8"
         },
         "compile": {
           "lib/netstandard2.0/SQLitePCLRaw.batteries_v2.dll": {}
@@ -17948,7 +18528,7 @@
           "lib/netstandard2.0/SQLitePCLRaw.batteries_v2.dll": {}
         }
       },
-      "SQLitePCLRaw.core/2.1.7": {
+      "SQLitePCLRaw.core/2.1.8": {
         "type": "package",
         "dependencies": {
           "System.Memory": "4.5.3"
@@ -17960,7 +18540,7 @@
           "lib/netstandard2.0/SQLitePCLRaw.core.dll": {}
         }
       },
-      "SQLitePCLRaw.lib.e_sqlite3/2.1.7": {
+      "SQLitePCLRaw.lib.e_sqlite3/2.1.8": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/_._": {}
@@ -17972,10 +18552,10 @@
           "buildTransitive/net6.0/SQLitePCLRaw.lib.e_sqlite3.targets": {}
         }
       },
-      "SQLitePCLRaw.provider.e_sqlite3/2.1.7": {
+      "SQLitePCLRaw.provider.e_sqlite3/2.1.8": {
         "type": "package",
         "dependencies": {
-          "SQLitePCLRaw.core": "2.1.7"
+          "SQLitePCLRaw.core": "2.1.8"
         },
         "compile": {
           "lib/net6.0/SQLitePCLRaw.provider.e_sqlite3.dll": {}
@@ -18179,6 +18759,22 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
+      "Microsoft.Maui.Controls.Maps/8.0.7": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Maui.Maps": "8.0.7"
+        },
+        "compile": {
+          "lib/netstandard2.1/Microsoft.Maui.Controls.Maps.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/Microsoft.Maui.Controls.Maps.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "Microsoft.Maui.Dependencies/6.0.553": {
         "type": "package",
         "dependencies": {
@@ -18209,6 +18805,19 @@
           }
         }
       },
+      "Microsoft.Maui.Maps/8.0.7": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/Microsoft.Maui.Maps.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/Microsoft.Maui.Maps.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "sqlite-net-pcl/1.8.116": {
         "type": "package",
         "dependencies": {
@@ -18225,11 +18834,11 @@
           }
         }
       },
-      "SQLitePCLRaw.bundle_green/2.1.7": {
+      "SQLitePCLRaw.bundle_green/2.1.8": {
         "type": "package",
         "dependencies": {
-          "SQLitePCLRaw.lib.e_sqlite3": "2.1.7",
-          "SQLitePCLRaw.provider.e_sqlite3": "2.1.7"
+          "SQLitePCLRaw.lib.e_sqlite3": "2.1.8",
+          "SQLitePCLRaw.provider.e_sqlite3": "2.1.8"
         },
         "compile": {
           "lib/netstandard2.0/SQLitePCLRaw.batteries_v2.dll": {}
@@ -18238,7 +18847,7 @@
           "lib/netstandard2.0/SQLitePCLRaw.batteries_v2.dll": {}
         }
       },
-      "SQLitePCLRaw.core/2.1.7": {
+      "SQLitePCLRaw.core/2.1.8": {
         "type": "package",
         "dependencies": {
           "System.Memory": "4.5.3"
@@ -18250,7 +18859,7 @@
           "lib/netstandard2.0/SQLitePCLRaw.core.dll": {}
         }
       },
-      "SQLitePCLRaw.lib.e_sqlite3/2.1.7": {
+      "SQLitePCLRaw.lib.e_sqlite3/2.1.8": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/_._": {}
@@ -18265,10 +18874,10 @@
           "buildTransitive/net6.0/SQLitePCLRaw.lib.e_sqlite3.targets": {}
         }
       },
-      "SQLitePCLRaw.provider.e_sqlite3/2.1.7": {
+      "SQLitePCLRaw.provider.e_sqlite3/2.1.8": {
         "type": "package",
         "dependencies": {
-          "SQLitePCLRaw.core": "2.1.7"
+          "SQLitePCLRaw.core": "2.1.8"
         },
         "compile": {
           "lib/net6.0/SQLitePCLRaw.provider.e_sqlite3.dll": {}
@@ -18557,6 +19166,48 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "Microsoft.Maui.Controls.Maps/8.0.7": {
+      "sha512": "MbsxDkPgA+NixthnaSZBjRM5ZAXy1JHbhRAjnEzUlcb+cP+/4HHN/syRHmd1CDf/cVGdd+JkA9DwlzlSks3GWg==",
+      "type": "package",
+      "path": "microsoft.maui.controls.maps/8.0.7",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "README.md",
+        "THIRD-PARTY-NOTICES.TXT",
+        "icon.png",
+        "lib/net8.0-android34.0/Microsoft.Maui.Controls.Maps.dll",
+        "lib/net8.0-android34.0/Microsoft.Maui.Controls.Maps.pdb",
+        "lib/net8.0-android34.0/Microsoft.Maui.Controls.Maps.xml",
+        "lib/net8.0-ios17.2/Microsoft.Maui.Controls.Maps.dll",
+        "lib/net8.0-ios17.2/Microsoft.Maui.Controls.Maps.pdb",
+        "lib/net8.0-ios17.2/Microsoft.Maui.Controls.Maps.xml",
+        "lib/net8.0-maccatalyst17.2/Microsoft.Maui.Controls.Maps.dll",
+        "lib/net8.0-maccatalyst17.2/Microsoft.Maui.Controls.Maps.pdb",
+        "lib/net8.0-maccatalyst17.2/Microsoft.Maui.Controls.Maps.xml",
+        "lib/net8.0-tizen8.0/Microsoft.Maui.Controls.Maps.dll",
+        "lib/net8.0-tizen8.0/Microsoft.Maui.Controls.Maps.pdb",
+        "lib/net8.0-tizen8.0/Microsoft.Maui.Controls.Maps.xml",
+        "lib/net8.0-windows10.0.19041/Microsoft.Maui.Controls.Maps.dll",
+        "lib/net8.0-windows10.0.19041/Microsoft.Maui.Controls.Maps.pdb",
+        "lib/net8.0-windows10.0.19041/Microsoft.Maui.Controls.Maps.xml",
+        "lib/net8.0-windows10.0.20348/Microsoft.Maui.Controls.Maps.dll",
+        "lib/net8.0-windows10.0.20348/Microsoft.Maui.Controls.Maps.pdb",
+        "lib/net8.0-windows10.0.20348/Microsoft.Maui.Controls.Maps.xml",
+        "lib/net8.0/Microsoft.Maui.Controls.Maps.dll",
+        "lib/net8.0/Microsoft.Maui.Controls.Maps.pdb",
+        "lib/net8.0/Microsoft.Maui.Controls.Maps.xml",
+        "lib/netstandard2.0/Microsoft.Maui.Controls.Maps.dll",
+        "lib/netstandard2.0/Microsoft.Maui.Controls.Maps.pdb",
+        "lib/netstandard2.0/Microsoft.Maui.Controls.Maps.xml",
+        "lib/netstandard2.1/Microsoft.Maui.Controls.Maps.dll",
+        "lib/netstandard2.1/Microsoft.Maui.Controls.Maps.pdb",
+        "lib/netstandard2.1/Microsoft.Maui.Controls.Maps.xml",
+        "microsoft.maui.controls.maps.8.0.7.nupkg.sha512",
+        "microsoft.maui.controls.maps.nuspec"
+      ]
+    },
     "Microsoft.Maui.Dependencies/6.0.553": {
       "sha512": "mVrCaCO0cQmZpGd3kko0BI7mPvAaDaLc9/9DesggfYCNMiXwGp9aRc6Huy/dwFLLUrCqD/PvDUVOFx79WjGN7Q==",
       "type": "package",
@@ -18612,6 +19263,48 @@
         "microsoft.maui.graphics.nuspec"
       ]
     },
+    "Microsoft.Maui.Maps/8.0.7": {
+      "sha512": "aaKqp/X3w/Dk96qcYsZ2jr42V5ejyFjZjGCivA2RY2iN305MXnJN5E9dQ3u05kuNH9GqjoI1WhJAuxOubny4ig==",
+      "type": "package",
+      "path": "microsoft.maui.maps/8.0.7",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "README.md",
+        "THIRD-PARTY-NOTICES.TXT",
+        "icon.png",
+        "lib/net8.0-android34.0/Microsoft.Maui.Maps.dll",
+        "lib/net8.0-android34.0/Microsoft.Maui.Maps.pdb",
+        "lib/net8.0-android34.0/Microsoft.Maui.Maps.xml",
+        "lib/net8.0-ios17.2/Microsoft.Maui.Maps.dll",
+        "lib/net8.0-ios17.2/Microsoft.Maui.Maps.pdb",
+        "lib/net8.0-ios17.2/Microsoft.Maui.Maps.xml",
+        "lib/net8.0-maccatalyst17.2/Microsoft.Maui.Maps.dll",
+        "lib/net8.0-maccatalyst17.2/Microsoft.Maui.Maps.pdb",
+        "lib/net8.0-maccatalyst17.2/Microsoft.Maui.Maps.xml",
+        "lib/net8.0-tizen8.0/Microsoft.Maui.Maps.dll",
+        "lib/net8.0-tizen8.0/Microsoft.Maui.Maps.pdb",
+        "lib/net8.0-tizen8.0/Microsoft.Maui.Maps.xml",
+        "lib/net8.0-windows10.0.19041/Microsoft.Maui.Maps.dll",
+        "lib/net8.0-windows10.0.19041/Microsoft.Maui.Maps.pdb",
+        "lib/net8.0-windows10.0.19041/Microsoft.Maui.Maps.xml",
+        "lib/net8.0-windows10.0.20348/Microsoft.Maui.Maps.dll",
+        "lib/net8.0-windows10.0.20348/Microsoft.Maui.Maps.pdb",
+        "lib/net8.0-windows10.0.20348/Microsoft.Maui.Maps.xml",
+        "lib/net8.0/Microsoft.Maui.Maps.dll",
+        "lib/net8.0/Microsoft.Maui.Maps.pdb",
+        "lib/net8.0/Microsoft.Maui.Maps.xml",
+        "lib/netstandard2.0/Microsoft.Maui.Maps.dll",
+        "lib/netstandard2.0/Microsoft.Maui.Maps.pdb",
+        "lib/netstandard2.0/Microsoft.Maui.Maps.xml",
+        "lib/netstandard2.1/Microsoft.Maui.Maps.dll",
+        "lib/netstandard2.1/Microsoft.Maui.Maps.pdb",
+        "lib/netstandard2.1/Microsoft.Maui.Maps.xml",
+        "microsoft.maui.maps.8.0.7.nupkg.sha512",
+        "microsoft.maui.maps.nuspec"
+      ]
+    },
     "sqlite-net-pcl/1.8.116": {
       "sha512": "W0NuwAOVVAR9LP4eZwNBIrim1p3EN7t8iNfSHXEhtzKAd4YyItekoQ8NyWYs4faVSrN2KZr/P5u4hycCjKKexg==",
       "type": "package",
@@ -18627,10 +19320,10 @@
         "sqlite-net-pcl.nuspec"
       ]
     },
-    "SQLitePCLRaw.bundle_green/2.1.7": {
-      "sha512": "ICNFmtawmLdyk9vEXPaCdMpw0E/7HJlj5FquOpKHtbIJLqU8Yujadqza5XpaDX/1PmHU0PqTf8YHn4hTR6/AqQ==",
+    "SQLitePCLRaw.bundle_green/2.1.8": {
+      "sha512": "Oyqx3Qi+ZIQVZUSGqRLjJkDnw3h0GwOxfxRQyKms7JOK8GiDJDW/xWbYPqIbUSP0WFZCYYuL9lMOeVK6XfRMIQ==",
       "type": "package",
-      "path": "sqlitepclraw.bundle_green/2.1.7",
+      "path": "sqlitepclraw.bundle_green/2.1.8",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -18643,26 +19336,26 @@
         "lib/net6.0-tvos10.0/SQLitePCLRaw.batteries_v2.dll",
         "lib/netstandard2.0/SQLitePCLRaw.batteries_v2.dll",
         "lib/xamarinios10/SQLitePCLRaw.batteries_v2.dll",
-        "sqlitepclraw.bundle_green.2.1.7.nupkg.sha512",
+        "sqlitepclraw.bundle_green.2.1.8.nupkg.sha512",
         "sqlitepclraw.bundle_green.nuspec"
       ]
     },
-    "SQLitePCLRaw.core/2.1.7": {
-      "sha512": "C1j0zRA2bCueUrGG2TbqDVm0Bdeq/gPf+qs6SweTpoTIOqH1me0/1rhfCHBJkMSQwI9OC1XW6t4Ml8Iux76YSA==",
+    "SQLitePCLRaw.core/2.1.8": {
+      "sha512": "jre/gajSA2Bz3kzYD8DxMpJehAtxY5/V2UE/OR0v48zY122hJOXBvGumV+/zEMg1l0lEVFJfJCpkJGQp7GBwRw==",
       "type": "package",
-      "path": "sqlitepclraw.core/2.1.7",
+      "path": "sqlitepclraw.core/2.1.8",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "lib/netstandard2.0/SQLitePCLRaw.core.dll",
-        "sqlitepclraw.core.2.1.7.nupkg.sha512",
+        "sqlitepclraw.core.2.1.8.nupkg.sha512",
         "sqlitepclraw.core.nuspec"
       ]
     },
-    "SQLitePCLRaw.lib.e_sqlite3/2.1.7": {
-      "sha512": "b3VByUTfSNGtq580yXDH5JAEwOCJru1ZJDS/EHCT+RnqId6pliewb0/xbzxjjiKLF3uDEwslR/9ftz5psv/N/g==",
+    "SQLitePCLRaw.lib.e_sqlite3/2.1.8": {
+      "sha512": "YQnIGZiMskhTogTiZfNe8Y1SK3Tke0JKnLHyPMQjDCa0I/MNsDoEE2fb4g/MZ1MKAn/A66wNxcLvwAC2dr6XPQ==",
       "type": "package",
-      "path": "sqlitepclraw.lib.e_sqlite3/2.1.7",
+      "path": "sqlitepclraw.lib.e_sqlite3/2.1.8",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -18699,14 +19392,14 @@
         "runtimes/win10-arm64/nativeassets/uap10.0/e_sqlite3.dll",
         "runtimes/win10-x64/nativeassets/uap10.0/e_sqlite3.dll",
         "runtimes/win10-x86/nativeassets/uap10.0/e_sqlite3.dll",
-        "sqlitepclraw.lib.e_sqlite3.2.1.7.nupkg.sha512",
+        "sqlitepclraw.lib.e_sqlite3.2.1.8.nupkg.sha512",
         "sqlitepclraw.lib.e_sqlite3.nuspec"
       ]
     },
-    "SQLitePCLRaw.lib.e_sqlite3.android/2.1.7": {
-      "sha512": "kmmfkjJJk5MoEtZKROc9Rx5jy1VhlOv2VCA7HMbGbPtM7iOgkKmindIoDtk7SYSM4oCn4aBLueqvYmezYnK4bg==",
+    "SQLitePCLRaw.lib.e_sqlite3.android/2.1.8": {
+      "sha512": "etFRNtDMW5e8YKWgYyduUnG/DXne1I7V8TpQr+7iDgDh+3h7+4BcEy+nvY9u/b9tTLTWgcaQgGR+QqoqgPz6VA==",
       "type": "package",
-      "path": "sqlitepclraw.lib.e_sqlite3.android/2.1.7",
+      "path": "sqlitepclraw.lib.e_sqlite3.android/2.1.8",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -18714,35 +19407,35 @@
         "lib/net6.0-android31.0/SQLitePCLRaw.lib.e_sqlite3.android.aar",
         "lib/net6.0-android31.0/SQLitePCLRaw.lib.e_sqlite3.android.dll",
         "lib/net6.0-android31.0/SQLitePCLRaw.lib.e_sqlite3.android.xml",
-        "sqlitepclraw.lib.e_sqlite3.android.2.1.7.nupkg.sha512",
+        "sqlitepclraw.lib.e_sqlite3.android.2.1.8.nupkg.sha512",
         "sqlitepclraw.lib.e_sqlite3.android.nuspec"
       ]
     },
-    "SQLitePCLRaw.provider.e_sqlite3/2.1.7": {
-      "sha512": "wxZU4CJQbPsQ9l8j4eiB5AW8IZt7PvHC+A1qByO1Rg47CrI0NZNpxV0N8gUdpxexocAwdjUrQEWOFVMAuNbLqw==",
+    "SQLitePCLRaw.provider.e_sqlite3/2.1.8": {
+      "sha512": "g5pnvmUereQirZkJGbZiOR2Y9bBlhHVt7Vgmnu3CGq00VdyGfD9hyQN0f8yrrSfFfgtbuxWDw2VTdDAOuMZEzQ==",
       "type": "package",
-      "path": "sqlitepclraw.provider.e_sqlite3/2.1.7",
+      "path": "sqlitepclraw.provider.e_sqlite3/2.1.8",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "lib/net6.0-windows7.0/SQLitePCLRaw.provider.e_sqlite3.dll",
         "lib/net6.0/SQLitePCLRaw.provider.e_sqlite3.dll",
         "lib/netstandard2.0/SQLitePCLRaw.provider.e_sqlite3.dll",
-        "sqlitepclraw.provider.e_sqlite3.2.1.7.nupkg.sha512",
+        "sqlitepclraw.provider.e_sqlite3.2.1.8.nupkg.sha512",
         "sqlitepclraw.provider.e_sqlite3.nuspec"
       ]
     },
-    "SQLitePCLRaw.provider.sqlite3/2.1.7": {
-      "sha512": "IenJSYGqoLr/DREibvlIJzTJZmwt6lcstltDZicINWCge++mZzq3+/7BSWFanQabIaS5GboKkEI/H3EftWyQxw==",
+    "SQLitePCLRaw.provider.sqlite3/2.1.8": {
+      "sha512": "K9P3Ru60Z3JbE470RK4tQ8hfx3KDEFSXzoUOn1j7PZMQ0LCAWDTxqHEt8ug3Rdl5ifoDsNBY6PDE7QnEQFhC2g==",
       "type": "package",
-      "path": "sqlitepclraw.provider.sqlite3/2.1.7",
+      "path": "sqlitepclraw.provider.sqlite3/2.1.8",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "lib/net6.0-windows7.0/SQLitePCLRaw.provider.sqlite3.dll",
         "lib/net6.0/SQLitePCLRaw.provider.sqlite3.dll",
         "lib/netstandard2.0/SQLitePCLRaw.provider.sqlite3.dll",
-        "sqlitepclraw.provider.sqlite3.2.1.7.nupkg.sha512",
+        "sqlitepclraw.provider.sqlite3.2.1.8.nupkg.sha512",
         "sqlitepclraw.provider.sqlite3.nuspec"
       ]
     },
@@ -20716,22 +21409,25 @@
   },
   "projectFileDependencyGroups": {
     "net6.0-android31.0": [
+      "Microsoft.Maui.Controls.Maps >= 8.0.7",
       "Microsoft.Maui.Dependencies >= 6.0.553",
       "Microsoft.Maui.Extensions >= 6.0.553",
-      "SQLitePCLRaw.bundle_green >= 2.1.7",
+      "SQLitePCLRaw.bundle_green >= 2.1.8",
       "sqlite-net-pcl >= 1.8.116"
     ],
     "net6.0-ios16.1": [
+      "Microsoft.Maui.Controls.Maps >= 8.0.7",
       "Microsoft.Maui.Dependencies >= 6.0.553",
       "Microsoft.Maui.Extensions >= 6.0.553",
-      "SQLitePCLRaw.bundle_green >= 2.1.7",
+      "SQLitePCLRaw.bundle_green >= 2.1.8",
       "System.Runtime.InteropServices.NFloat.Internal >= 6.0.1",
       "sqlite-net-pcl >= 1.8.116"
     ],
     "net6.0-maccatalyst16.1": [
+      "Microsoft.Maui.Controls.Maps >= 8.0.7",
       "Microsoft.Maui.Dependencies >= 6.0.553",
       "Microsoft.Maui.Extensions >= 6.0.553",
-      "SQLitePCLRaw.bundle_green >= 2.1.7",
+      "SQLitePCLRaw.bundle_green >= 2.1.8",
       "System.Runtime.InteropServices.NFloat.Internal >= 6.0.1",
       "sqlite-net-pcl >= 1.8.116"
     ]
@@ -20785,6 +21481,10 @@
       "net6.0-android31.0": {
         "targetAlias": "net6.0-android",
         "dependencies": {
+          "Microsoft.Maui.Controls.Maps": {
+            "target": "Package",
+            "version": "[8.0.7, )"
+          },
           "Microsoft.Maui.Dependencies": {
             "target": "Package",
             "version": "[6.0.553, )",
@@ -20797,7 +21497,7 @@
           },
           "SQLitePCLRaw.bundle_green": {
             "target": "Package",
-            "version": "[2.1.7, )"
+            "version": "[2.1.8, )"
           },
           "sqlite-net-pcl": {
             "target": "Package",
@@ -20838,15 +21538,15 @@
           },
           {
             "name": "Microsoft.AspNetCore.App.Runtime.linux-arm",
-            "version": "[6.0.26, 6.0.26]"
+            "version": "[6.0.27, 6.0.27]"
           },
           {
             "name": "Microsoft.AspNetCore.App.Runtime.linux-arm64",
-            "version": "[6.0.26, 6.0.26]"
+            "version": "[6.0.27, 6.0.27]"
           },
           {
             "name": "Microsoft.AspNetCore.App.Runtime.linux-x64",
-            "version": "[6.0.26, 6.0.26]"
+            "version": "[6.0.27, 6.0.27]"
           },
           {
             "name": "Microsoft.Maui.Controls.Ref.android",
@@ -20890,11 +21590,15 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.312/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.313/RuntimeIdentifierGraph.json"
       },
       "net6.0-ios16.1": {
         "targetAlias": "net6.0-ios",
         "dependencies": {
+          "Microsoft.Maui.Controls.Maps": {
+            "target": "Package",
+            "version": "[8.0.7, )"
+          },
           "Microsoft.Maui.Dependencies": {
             "target": "Package",
             "version": "[6.0.553, )",
@@ -20907,7 +21611,7 @@
           },
           "SQLitePCLRaw.bundle_green": {
             "target": "Package",
-            "version": "[2.1.7, )"
+            "version": "[2.1.8, )"
           },
           "System.Runtime.InteropServices.NFloat.Internal": {
             "target": "Package",
@@ -20981,11 +21685,15 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.312/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.313/RuntimeIdentifierGraph.json"
       },
       "net6.0-maccatalyst16.1": {
         "targetAlias": "net6.0-maccatalyst",
         "dependencies": {
+          "Microsoft.Maui.Controls.Maps": {
+            "target": "Package",
+            "version": "[8.0.7, )"
+          },
           "Microsoft.Maui.Dependencies": {
             "target": "Package",
             "version": "[6.0.553, )",
@@ -20998,7 +21706,7 @@
           },
           "SQLitePCLRaw.bundle_green": {
             "target": "Package",
-            "version": "[2.1.7, )"
+            "version": "[2.1.8, )"
           },
           "System.Runtime.InteropServices.NFloat.Internal": {
             "target": "Package",
@@ -21073,7 +21781,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.312/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.313/RuntimeIdentifierGraph.json"
       }
     },
     "runtimes": {

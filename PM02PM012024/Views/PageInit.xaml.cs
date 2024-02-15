@@ -5,8 +5,10 @@ namespace PM02PM012024;
 
 public partial class PageInit : ContentPage
 {
+    //objetos globales.
 	//se Crea una variable del tipo Personacontrollers
 	Controllers.PersonaControllers PersonDB;
+    FileResult photo;
 
     //defino un constructor que recibe parametros de BD
    public PageInit(Controllers.PersonaControllers dbpath)
@@ -24,6 +26,46 @@ public partial class PageInit : ContentPage
        
     }
 
+    //creamosuna funcion para convertir la imagen a 64 y oderla almacenar
+    //esta la llamamos al momento de guardar el elemento
+    public String GetImage64()
+    {
+        if (photo != null)
+        {
+            using (MemoryStream ms = new MemoryStream())
+            {
+                Stream stream = photo.OpenReadAsync().Result;
+                stream.CopyTo(ms);
+                //toma la imagen y kla convierte en 74bytes
+                byte[] data = ms.ToArray();
+
+                String Base64 = Convert.ToBase64String(data);
+                //retorna el valor de la magen que es la que almacena.
+                return Base64;
+
+            }
+        }
+        return null;
+    }
+
+    //Creamos una funcion para comnvertir la imagen a arreglo data 
+    public byte[] GetImageArray()
+    {
+        if (photo != null)
+        {
+            using (MemoryStream ms = new MemoryStream())
+            {
+                Stream stream = photo.OpenReadAsync().Result;
+                stream.CopyTo(ms);
+                byte[] data = ms.ToArray();
+
+                return data;
+
+            }
+        }
+        return null;
+    }
+
     async void btn_procesar_Clicked(System.Object sender, System.EventArgs e)
     {
         //Iniciar la base de datos
@@ -39,9 +81,11 @@ public partial class PageInit : ContentPage
             Nombres = nombres.Text,
             Apellidos = apellidos.Text,
 			FechaNac = FechaNac.Date,
-			Telefono = Telefono.Text
+			Telefono = Telefono.Text,
+            //aqui llamamos la funcion y se la pasamos a la variable foto de nuestro modelo.
+            Foto = GetImage64()
 
-		};
+        };
         try
         {
             
@@ -70,5 +114,21 @@ public partial class PageInit : ContentPage
         }
 
 
+    }
+
+    async void btn_boton_Clicked(System.Object sender, System.EventArgs e)
+    {
+        photo = await MediaPicker.CapturePhotoAsync();
+        if (photo != null)
+        {
+            string path = Path.Combine(FileSystem.CacheDirectory, photo.FileName);
+            using Stream sourcephoto = await photo.OpenReadAsync();
+            using FileStream Streamlocal = File.OpenWrite(path);
+
+            //mostrar la imagen en el obejto y lo guardamos en nuestro sistema de archivos de sisema operativo
+            foto.Source = ImageSource.FromStream(() => photo.OpenReadAsync().Result);
+
+            await sourcephoto.CopyToAsync(Streamlocal);
+        }
     }
 }

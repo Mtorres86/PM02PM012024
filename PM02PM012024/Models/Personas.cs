@@ -22,6 +22,7 @@ namespace PM02PM012024.Models
 		[Unique]
         public string Telefono { get; set; }
 
+		public String Foto { get; set; }
 
         public Personas()
 		{

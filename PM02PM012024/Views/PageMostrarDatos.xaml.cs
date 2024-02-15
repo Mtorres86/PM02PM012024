@@ -17,6 +17,6 @@ public partial class PageMostrarDatos : ContentPage
         // Obtener los datos de la base de datos y asignarlos al origen de datos de tu interfaz de usuario
             var personas = await PersonDB.GetListPersons();
 
-			listView.ItemsSource = personas;
+       listView.ItemsSource= personas;
     }
 }

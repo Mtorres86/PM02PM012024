@@ -4,7 +4,13 @@
              x:Class="PM02PM012024.PageInit"
              Title="PageInit">
     <VerticalStackLayout>
-        
+
+
+
+        <Image x:Name="foto" BackgroundColor="AliceBlue" HeightRequest="300" WidthRequest="300"
+               HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"/>
+
+        <Button Text="selecciona imagen" x:Name="btn_boton" Clicked="btn_boton_Clicked"/>
         <Entry x:Name="nombres" Placeholder="Name" Keyboard="Text"  />
         <Entry x:Name="apellidos" Placeholder="Lastname" Keyboard="Text"  />
         <DatePicker x:Name="FechaNac" Format="d"/>

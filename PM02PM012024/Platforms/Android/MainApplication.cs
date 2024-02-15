@@ -4,6 +4,7 @@ using Android.Runtime;
 namespace PM02PM012024;
 
 [Application]
+
 public class MainApplication : MauiApplication
 {
 	public MainApplication(IntPtr handle, JniHandleOwnership ownership)
